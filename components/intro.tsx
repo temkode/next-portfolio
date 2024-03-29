@@ -58,43 +58,45 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col items-center justify-center gap-2 sm:flex-row px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-3 sm:flex-row px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none w-60 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-2 transition" />
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 group-hover:scale-125 transition" />
         </Link>
 
         <a
-          className="group bg-white rounded-full px-7 py-3 flex items-center gap-2 outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+          className="group bg-white rounded-full px-7 py-3 flex items-center justify-center gap-2 outline-none w-60 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          Download my CV{" "}
+          <HiDownload className="opacity-60 group-hover:scale-125 transition" />
         </a>
 
-        <a
-          className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 border border-black/10 focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
-          href="https://linkedin.com"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+        <div className="flex gap-3">
+          <a
+            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 border border-black/10 focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
+            href="https://linkedin.com"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.25rem] border border-black/10 focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
-          href="https://github.com/temkode"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.25rem] border border-black/10 focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
+            href="https://github.com/temkode"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
     </section>
   );
