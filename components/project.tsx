@@ -22,7 +22,7 @@ export default function Project({
   return (
     <motion.article
       ref={ref}
-      style={{ scale: scaleProgress, opacity: scrollYProgress }}
+      style={{ scale: scaleProgress, opacity: opacityProgress }}
       className="group bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative mb-3 sm:mb-8 last:mb-0 sm:even:pl-8"
     >
       <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] sm:h-[20rem] flex flex-col h-full sm:group-even:ml-[18rem]">
