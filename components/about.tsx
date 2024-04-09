@@ -19,17 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I completed a software development apprenticeship and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favourite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I completed a <span className="font-medium">Higher Apprenticeship</span>{" "}
+        in Software Engineering. I specialise in{" "}
+        <span className="font-medium">Full Stack Development</span>. My core
+        stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and Postgres DB
+          React, Next.js, Node.js, Typescript, and PostgreSQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with Python and Ruby. I am always looking to learn
+        new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
@@ -38,8 +36,7 @@ export default function About() {
         Basketball and Table Tennis. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">history and philosophy</span>.
       </p>
     </motion.section>
   );

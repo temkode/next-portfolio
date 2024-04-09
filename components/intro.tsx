@@ -74,7 +74,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none w-60 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none w-60 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-white/75 dark:text-gray-950"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
