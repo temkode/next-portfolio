@@ -93,7 +93,7 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:scale-125 transition" />
         </a>
 
-        <div className="flex gap-3">
+        <div className="flex gap-2">
           <a
             className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.20rem] borderBlack focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://linkedin.com"
