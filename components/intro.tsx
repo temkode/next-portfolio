@@ -85,7 +85,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white rounded-full px-7 py-3 flex items-center justify-center gap-2 outline-none w-60 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+          className="group bg-white rounded-full px-7 py-3 flex items-center justify-center gap-2 outline-none w-60 focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -95,7 +95,7 @@ export default function Intro() {
 
         <div className="flex gap-3">
           <a
-            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 borderBlack focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
+            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.20rem] borderBlack focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://linkedin.com"
             target="_blank"
           >
@@ -103,7 +103,7 @@ export default function Intro() {
           </a>
 
           <a
-            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.25rem] borderBlack focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer"
+            className="bg-white text-gray-750 rounded-full p-4 flex items-center gap-2 text-[1.5rem] borderBlack focus:scale-[1.20] hover:scale-[1.20] hover:text-gray-950 active:scale-[1.15] transition cursor-pointer dark:bg-white/10 dark:text-white/70"
             href="https://github.com/temkode"
             target="_blank"
           >
