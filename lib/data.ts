@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Full Stack Developer Intern",
     location: "Watford, UK",
     description:
-      "I worked as a full-stack developer for 1 year at Starleaf, a cloud video conference company.",
+      "I worked as a full-stack developer for 1 year at Starleaf, a cloud video conference company. I used Python, Javascript, Git, and CSS",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2020",
   },
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Software Developer Apprentice",
     location: "London, UK",
     description:
-      "I worked 2 years while studying a software development course at Softwire. I worked with clients such as Channel 5, Royal Pharmaceutical Society, and Air Charter Service",
+      "I worked for 2 years while studying a software development course at Softwire. I worked for clients such as Channel 5, Royal Pharmaceutical Society, and Air Charter Service to develop and maintain large critical services utilising a variety of technologies",
     icon: React.createElement(FaReact),
     date: "2021 - 2023",
   },
