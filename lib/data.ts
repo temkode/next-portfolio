@@ -61,17 +61,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CovidSambar",
+    title: "Covid Sambar",
     description:
-      "I created a dashboard tracking live data about the covid pandemic in Mongolia from an API",
-    tags: ["React", "MongoDB", "CSS"],
+      "I created a dashboard tracking live data about the COVID pandemic in Mongolia from an API",
+    tags: ["React", "MongoDB", "HTML", "CSS"],
     imageUrl: covidSambarImg,
   },
   {
-    title: "projectArin",
+    title: "Project Arin",
     description:
       "Landing page developed for an indie game release. It features a responsive design and form collection.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["HTML", "CSS", "Javascript"],
     imageUrl: projectArinImg,
   },
 ] as const;
@@ -80,11 +80,11 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  "PHP",
+  "Git",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
   "Prisma",
   "Redux",
